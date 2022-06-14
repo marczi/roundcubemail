@@ -1,0 +1,4 @@
+<?php
+
+// Automatic logout in minutes
+$config['autologout_timeout'] = 5;

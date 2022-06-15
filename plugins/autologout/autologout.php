@@ -40,7 +40,7 @@ class autologout extends rcube_plugin
 
     function startup($args)
     {
-        rcube::write_log('autologout', 'Autologout action: ' . $args['action']);
+//        rcube::write_log('autologout', 'Autologout action: ' . $args['action']);
 
         $a = $args['action'];
         if ($a == 'keep-alive' || $a == 'refresh') {
